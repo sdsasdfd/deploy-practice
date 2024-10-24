@@ -8,7 +8,9 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("/api/test");
+        const response = await axios.get(
+          "deploy-practice-api.vercel.app/api/test"
+        );
 
         console.log(response.data.message);
 

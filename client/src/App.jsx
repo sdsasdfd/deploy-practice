@@ -26,7 +26,7 @@ const App = () => {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>; // display loading state
+    return <div>Loading...</div>;
   }
 
   return (
@@ -34,7 +34,7 @@ const App = () => {
       {data ? (
         <div style={{ background: "gray", color: "white" }}>{data}</div>
       ) : (
-        <div>No data found</div>
+        <div>No data found yet</div>
       )}
     </div>
   );

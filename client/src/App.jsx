@@ -34,7 +34,7 @@ const App = () => {
       {data ? (
         <div style={{ background: "gray", color: "white" }}>{data}</div>
       ) : (
-        <div>No data found yet</div>
+        <div>No data found more</div>
       )}
     </div>
   );

@@ -9,7 +9,7 @@ const App = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://deploy-practice-client.vercel.app//api/test"
+          "https://deploy-practice-client.vercel.app/api/test"
         );
 
         console.log(response.data.message);
